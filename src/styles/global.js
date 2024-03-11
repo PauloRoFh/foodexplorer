@@ -14,4 +14,10 @@ export default createGlobalStyle`
 
     -webkit-font-smoothing: antialiased;
   }
+
+  body, input, button, textarea {
+    font-family: 'Poppins', serif;
+    font-size: 16px;
+    outline: none;
+  }
 `
