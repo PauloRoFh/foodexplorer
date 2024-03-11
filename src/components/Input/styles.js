@@ -11,9 +11,8 @@ gap: 0.875rem;
 
 border-radius: 0.5rem;
 background: ${({ theme }) => theme.COLORS.DARK_900};
-color: ${({ theme }) => theme.COLORS.LIGHT_100};
 
-font-family: Roboto;
+  font-family: Roboto;
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
@@ -23,9 +22,10 @@ font-family: Roboto;
   flex: 1 0 0;
   background: transparent;
   border: 0;
-}
-
-&:placeholder {
   color: ${({ theme }) => theme.COLORS.LIGHT_100};
+
+  &:placeholder {
+    color: ${({ theme }) => theme.COLORS.LIGHT_500};
+  } 
 }
 `
