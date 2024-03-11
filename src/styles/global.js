@@ -16,8 +16,21 @@ export default createGlobalStyle`
   }
 
   body, input, button, textarea {
-    font-family: 'Poppins', serif;
+    font-family: 'Poppins', 'Roboto', serif;
     font-size: 16px;
     outline: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button, a {
+    cursor: pointer;
+    transition: filter 0.2s;
+  }
+
+  button:hover, a:hover {
+    filter: brightness(0.9);
   }
 `
